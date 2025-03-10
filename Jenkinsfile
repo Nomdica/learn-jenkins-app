@@ -52,9 +52,9 @@ pipeline {
     //         }
     //     }
     // }
-    // post {
-    //     always {
-    //         junit 'jest-results/junit.xml'
-    //     }
+    post {
+        always {
+            junit 'test-results/junit.xml'
+        }
     }
 }
