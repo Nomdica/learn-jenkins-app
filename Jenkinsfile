@@ -158,7 +158,7 @@ pipeline {
             }
 
             environment {
-                CI_ENVIRONMENT_URL = 'YOUR NETLIFY URL'
+                CI_ENVIRONMENT_URL = 'https://fluffy-tartufo-6bc1a1.netlify.app'
             }
 
             steps {
